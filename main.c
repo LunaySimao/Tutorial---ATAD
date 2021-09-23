@@ -13,9 +13,12 @@ int main(){
 
 void showAge(){
     int age = 0;
+    int *pointer = &age;
 
     printf("Please, introduce your age!! \n");
     scanf("%d", &age);
 
     printf("Você tem %d anos de idade\n", age);
+
+    printf("The memory adress of age is %p \n", pointer);
     }
