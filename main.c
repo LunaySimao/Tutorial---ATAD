@@ -47,7 +47,7 @@ int sumArray(int arr[], int arrLength){
     return sum;
 }
 
-// Uma funçõa que devolve quantas vezes ocorre c em str
+// Uma função que devolve quantas vezes ocorre c em str
 int countOccurences(char *str, char c){
     int len = strlen(str);
 
